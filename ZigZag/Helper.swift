@@ -20,11 +20,11 @@ func getCef()->CGFloat{
     
     switch (deviceIdiom) {
     case .pad:
-        return 1
+        return 8
     case .phone:
-        return 1
+        return 6
     default:
-        return 1
+        return 6
     }
 }
 
@@ -38,7 +38,7 @@ public class Helper {
        
        struct constaints {
            let smallBlockSize = Int(UIScreen.main.bounds.width/2/getCef())
-           let blockSize = Int(UIScreen.main.bounds.width/getCef()-UIScreen.main.bounds.width/80)
+           let blockSize = Int(UIScreen.main.bounds.width/getCef())
        }
        
        func getConstaint(key: constaintsEnum) -> Int {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3241077023AF795A0068CF5D /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3241076F23AF795A0068CF5D /* Block.swift */; };
 		3259405F23AA76C40044A170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3259405E23AA76C40044A170 /* AppDelegate.swift */; };
 		3259406123AA76C40044A170 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3259406023AA76C40044A170 /* GameScene.sks */; };
 		3259406523AA76C40044A170 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3259406423AA76C40044A170 /* GameScene.swift */; };
@@ -68,6 +69,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3241076F23AF795A0068CF5D /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		3259405B23AA76C40044A170 /* ZigZag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZigZag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3259405E23AA76C40044A170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3259406023AA76C40044A170 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -163,13 +165,14 @@
 				325941A523AA7C430044A170 /* png */,
 				3259406B23AA76C70044A170 /* Assets.xcassets */,
 				3259405E23AA76C40044A170 /* AppDelegate.swift */,
+				3241076F23AF795A0068CF5D /* Block.swift */,
 				3259406023AA76C40044A170 /* GameScene.sks */,
-				3259420A23AA81B90044A170 /* Helper.swift */,
 				3259406423AA76C40044A170 /* GameScene.swift */,
 				3259406623AA76C40044A170 /* GameViewController.swift */,
 				3259406823AA76C40044A170 /* Main.storyboard */,
 				3259406D23AA76C70044A170 /* LaunchScreen.storyboard */,
 				3259407023AA76C70044A170 /* Info.plist */,
+				3259420A23AA81B90044A170 /* Helper.swift */,
 			);
 			path = ZigZag;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			files = (
 				3259406523AA76C40044A170 /* GameScene.swift in Sources */,
 				3259406723AA76C40044A170 /* GameViewController.swift in Sources */,
+				3241077023AF795A0068CF5D /* Block.swift in Sources */,
 				3259405F23AA76C40044A170 /* AppDelegate.swift in Sources */,
 				3259420B23AA81B90044A170 /* Helper.swift in Sources */,
 			);
